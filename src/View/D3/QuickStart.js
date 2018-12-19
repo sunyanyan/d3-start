@@ -78,10 +78,8 @@ export default class QuickStart extends React.Component {
         //这里就推荐 MDN 的文档了 :
         // [SVG元素参考](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element)
         // [SVG属性参考](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Attribute)
-        // [SVG教程](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
-
+        // [SVG教程](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)        
     }
-
     static defaultProps = {
         data: [2500, 2100, 1700, 1300, 900],
     }

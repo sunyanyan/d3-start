@@ -3,7 +3,7 @@ import {
   Layout, Menu, Breadcrumb, Icon,
 } from 'antd';
 import { Link } from 'react-router-dom';
-import {D3RouteConfig} from '../Routes/index'
+import { D3RouteConfig } from '../Routes/index'
 const {
   Header, Content, Footer, Sider,
 } = Layout;
@@ -30,17 +30,18 @@ export default class LeftSider extends Component {
           color: 'white', display: 'flex', justifyContent: 'center',
           alignItems: 'center', height: '32px', margin: '16px', backgroundColor: '#1890ff33'
         }}>
-          <Link to="/">可视化学习</Link></div>
+          <Link to="/">可视化学习</Link>
+        </div>
         <Menu theme="dark" defaultOpenKeys={['D3图表']} mode="inline">
 
           <SubMenu
             key="D3图表"
             title={<span><Icon type="user" /><span>D3 图表</span></span>}
           >
-          {D3RouteConfig.map((value,index)=>{
-            if( value.path !== "/")
-              return <Menu.Item key={index}><Link to={value.path}>{value.desc}</Link></Menu.Item>
-          })}            
+            {D3RouteConfig.map((value, index) => {
+              if (value.path !== "/")
+                return <Menu.Item key={index}><Link to={value.path}>{value.desc}</Link></Menu.Item>
+            })}
           </SubMenu>
 
         </Menu>

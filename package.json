@@ -7,7 +7,6 @@
     "antd": "^3.11.2",
     "babel-plugin-import": "^1.11.0",
     "d3": "^5.7.0",
-    "d3-tip": "^0.9.1",
     "react": "^16.6.3",
     "react-app-rewired": "^1.6.2",
     "react-dom": "^16.6.3",
